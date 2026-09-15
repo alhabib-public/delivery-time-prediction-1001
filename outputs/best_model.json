@@ -1,0 +1,28 @@
+{
+  "exp_name": "v001_hgb_vs_mlp_kfold5",
+  "best": "hgb",
+  "cv_mae": 3.1528114105703735,
+  "params": {
+    "categorical_features": "['Weatherconditions', 'Type_of_order', 'Type_of_vehicle', 'Festival', 'City', 'driver_city']",
+    "early_stopping": "'auto'",
+    "interaction_cst": "None",
+    "l2_regularization": "1.0",
+    "learning_rate": "0.05",
+    "loss": "'absolute_error'",
+    "max_bins": "255",
+    "max_depth": "None",
+    "max_features": "1.0",
+    "max_iter": "600",
+    "max_leaf_nodes": "63",
+    "min_samples_leaf": "40",
+    "monotonic_cst": "None",
+    "n_iter_no_change": "10",
+    "quantile": "None",
+    "random_state": "0",
+    "scoring": "'loss'",
+    "tol": "1e-07",
+    "validation_fraction": "0.1",
+    "verbose": "0",
+    "warm_start": "False"
+  }
+}

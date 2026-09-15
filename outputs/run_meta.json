@@ -1,0 +1,26 @@
+{
+  "exp_name": "v001_hgb_vs_mlp_kfold5",
+  "seed": 0,
+  "cv": "KFold(n_splits=5, random_state=0, shuffle=True)",
+  "n_train": 41093,
+  "n_test": 4500,
+  "target_mean": 26.321222592655683,
+  "target_std": 9.378763544876552,
+  "target_min": 10.0,
+  "target_max": 54.0,
+  "started_at": "2026-09-15T16:02:11+00:00",
+  "versions": {
+    "delivery": "0.2.0",
+    "sklearn": "1.9.1",
+    "torch": "2.14.0+cpu",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  },
+  "candidates": [
+    "median",
+    "ridge",
+    "hgb",
+    "mlp"
+  ],
+  "wall_time_s": 81.8
+}
